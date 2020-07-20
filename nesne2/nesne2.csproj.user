@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="AnasayfaWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ApiWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Hikayemiz.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="HoodieFiltre.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Hoodies.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SepetWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UyeGirisiWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UyeOlWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="AnasayfaWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ApiWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Hikayemiz.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="HoodieFiltre.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Hoodies.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SepetWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UyeGirisiWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UyeOlWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

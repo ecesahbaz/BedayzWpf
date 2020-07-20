@@ -1,0 +1,106 @@
+﻿<Window x:Class="nesne2.Hikayemiz"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:nesne2"
+        mc:Ignorable="d"
+        Title="Hikayemiz" Height="730" Width="650">
+    <Grid>
+        <Canvas Background="#fafafa">
+            <Image Height="160" Stretch="UniformToFill" Source="https://www.bedayz.com/CustomCss/ticimax/images/katimg.png" RenderTransformOrigin="0.5,0.5" Margin="0,0,0,235" Grid.RowSpan="2" Width="650" />
+            <DockPanel Margin="10,50,52,65" >
+                <Button Content="HİKAYEMİZ" Background="Transparent" Foreground="White" FontSize="13" Padding="5" BorderBrush="Transparent"></Button>
+                <Button Content="SSS" Background="Transparent" Foreground="White" FontSize="13" BorderBrush="Transparent"></Button>
+                <Button Content="İLETİŞİM" Background="Transparent" Foreground="White" FontSize="13" Padding="5" BorderBrush="Transparent"></Button>
+
+            </DockPanel>
+            <Image Width="50" Source="https://www.bedayz.com/CustomCss/images/logo.png" Margin="290,50"/>
+            <DockPanel Margin="446,45,45,53">
+                <Button Content="ÜYE GİRİŞİ" Background="Transparent" Foreground="White" Padding="5" BorderBrush="Transparent" Click="Button_Click_2"></Button>
+                <Button Content="ÜYE OL" Background="Transparent" Foreground="White" Padding="5" BorderBrush="Transparent" Click="Button_Click_3"></Button>
+                <Border CornerRadius="20"  Background="Transparent"  BorderBrush="White" Padding="5" BorderThickness="1" Width="70" Height="40" Canvas.Left="503" Canvas.Top="47">
+                    <Button Content="SEPETİM" FontSize="10" Background="Transparent"  Foreground="White" BorderBrush="Transparent" HorizontalContentAlignment="Center" Margin="5,5,5,5"  />
+                </Border>
+            </DockPanel>
+            <DockPanel Margin="95,115,5,6">
+                <Button Content="ANASAYFA"  Background="Transparent" Foreground="White" Padding="5" BorderBrush="Transparent" Click="Button_Click"></Button>
+                <Button Content="HOODIE"  Background="Transparent" Foreground="White" Padding="5" BorderBrush="Transparent" Click="Button_Click_1"></Button>
+                <Button Content="SWEATSHIRT"  Background="Transparent" Foreground="White" Padding="5" BorderBrush="Transparent"></Button>
+                <Button Content="ACCESSORY"  Background="Transparent" Foreground="White" Padding="5" BorderBrush="Transparent"></Button>
+                <Button Content="TRACKSUIT-COAT"  Background="Transparent" Foreground="White" Padding="5" BorderBrush="Transparent"></Button>
+                <Button Content="T-SHIRT"  Background="Transparent" Foreground="White" Padding="5" BorderBrush="Transparent"></Button>
+            </DockPanel>
+            <Image Source="https://www.bedayz.com/Uploads/Images/elr.jpg" Width="300" Margin="35,185,4,5"></Image>
+            <Label Content="Bu Bizim" Margin="315,250,4,5" FontWeight="Bold" FontSize="20" ></Label>
+            <Label Content="Hikayemiz" Margin="315,272,4,5" FontWeight="Bold" FontSize="20" ></Label>
+            <Label Margin="315,310,0,0" FontSize="13" Content="Bedayz, İstanbul'un yaramaz çocukları tarafından "></Label>
+            <Label Margin="315,325,0,0" FontSize="13"  Content="yaratılmış imzasını attığı her işte kaldırımların"></Label>
+            <Label Margin="315,340,0,0" FontSize="13" Content="izini taşıyan bir kültürdür. Yaklaşımındaki cesur "></Label>
+            <Label Margin="315,355,0,0" FontSize="13" Content="çizgi ve özgür anlatıyla modadaki sokak ve lüks "></Label>
+            <Label Margin="315,370,0,0" FontSize="13" Content="kavramlarını yeniden tanımlar.Bir başka deyişle,  "></Label>
+            <Label Margin="315,385,0,0" FontSize="13" Content="beat'i damarlarında hissetmeyenlerin mikrofonu eline "></Label>
+            <Label Margin="315,400,0,0" FontSize="13" Content="almasına başkaldırıdır.Neden bedayz diye sorduklarında "></Label>
+            <Label Margin="315,415,0,0" FontSize="13" Content="''Çünkü bu kafayı seviyoruz!'' dersiniz."></Label>
+            <Border Background="#b7b7b7" Width="650" Height="174" Canvas.Top="542">
+                <StackPanel>
+                    <DockPanel>
+                        <Border Background="Transparent" Width="80" Height="70" HorizontalAlignment="Left" Margin="30,0,0,233" >
+                            <StackPanel>
+                                <Image Margin="5" Source="https://www.bedayz.com/customcss/images/f1.png" Width="30" VerticalAlignment="Top"></Image>
+                                <TextBlock Text="ÜCRETSİZ" FontSize="10" HorizontalAlignment="Center"></TextBlock>
+                                <TextBlock Text="KARGO" FontSize="13" FontWeight="Bold" HorizontalAlignment="Center"></TextBlock>
+                            </StackPanel>
+
+                        </Border>
+                        <Border Background="Transparent" Width="80" Height="60" Margin="90,0,0,233">
+                            <StackPanel >
+                                <Image Margin="5" Source="https://www.bedayz.com/customcss/images/f2.png" Width="30" VerticalAlignment="Top"></Image>
+                                <TextBlock Text="KAPIDA" FontSize="10" HorizontalAlignment="Center"></TextBlock>
+                                <TextBlock Text="ÖDEME" FontSize="13" FontWeight="Bold" HorizontalAlignment="Center"></TextBlock>
+                            </StackPanel>
+                        </Border>
+                        <Border Background="Transparent" Width="80" Height="60" Margin="90,0,0,233">
+                            <StackPanel >
+                                <Image Margin="5" Source="https://www.bedayz.com/customcss/images/f3.png" Width="30" VerticalAlignment="Top"></Image>
+                                <TextBlock Text="3D" FontSize="10" HorizontalAlignment="Center"></TextBlock>
+                                <TextBlock Text="SECURE" FontSize="13" FontWeight="Bold" HorizontalAlignment="Center"></TextBlock>
+                            </StackPanel>
+                        </Border>
+                        <Border Background="Transparent" Width="80" Height="60" Margin="20,0,0,233">
+                            <StackPanel >
+                                <Image Margin="5" Source="https://www.bedayz.com/customcss/images/f4.png" Width="30" VerticalAlignment="Top"></Image>
+                                <TextBlock Text="SINIRLI" FontSize="10" HorizontalAlignment="Center"></TextBlock>
+                                <TextBlock Text="ÜRETİM" FontSize="13" FontWeight="Bold" HorizontalAlignment="Center"></TextBlock>
+                            </StackPanel>
+                        </Border>
+
+                    </DockPanel>
+                    <Border Width="1016" BorderBrush="Gray" BorderThickness="0,1,0,0"  Margin="-15,-387,0,-95" Height="174" >
+                        <DockPanel>
+                            <Image Source="https://www.bedayz.com/customcss/images/flogo.png" Height="40" Margin="60,-200,0,-95" HorizontalAlignment="Left"></Image>
+
+
+                            <Border Width="90" Height="30" Margin="-105,60,0,-95">
+                                <DockPanel Background="Transparent" >
+                                    <Image Source="https://i.pinimg.com/564x/08/17/15/0817158f3a05c0d62de647c28f4cde54.jpg"  />
+                                    <Image Source="https://image.flaticon.com/icons/png/512/23/23931.png" />
+                                    <Image Source="https://toppng.com/uploads/preview/facebook-logo-black-facebook-f-icon-sv-11563007376zoyicmzra4.png" />
+                                </DockPanel>
+
+                            </Border>
+                            <Button Content="HAKKIMIZDA" Width="100" Height="40" Background="Transparent" FontSize="13" BorderBrush="Transparent" Margin="-750,-200,0,-95" Click="Button_Click_4"></Button>
+
+                        </DockPanel>
+
+                    </Border>
+                </StackPanel>
+
+
+            </Border>
+
+
+
+        </Canvas>
+    </Grid>
+</Window>
